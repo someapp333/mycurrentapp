@@ -19,6 +19,6 @@ const FormSchema = new mongoose.Schema({
   }
 });
 
-const Form = mongoose.model("Formbis", FormSchema);
+const Form = mongoose.model("Form", FormSchema);
 
 module.exports = { Form };
