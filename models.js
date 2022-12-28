@@ -12,6 +12,10 @@ const FormSchema = new mongoose.Schema({
   goal: {
     type: String,
     required: true,
+  },
+  time : { 
+    type : Date, 
+    default: Date.now 
   }
 });
 
